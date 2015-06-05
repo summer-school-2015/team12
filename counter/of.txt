@@ -1,0 +1,3 @@
+Strings = 2
+Words = 4
+Symbols = 23
