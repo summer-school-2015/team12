@@ -1,5 +1,6 @@
 package com.example.Game;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -23,7 +24,8 @@ public class MainActivity extends Activity implements OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.button:
-                // TODO Call second activity
+                Intent intent = new Intent(this, MainActivityTwo.class);
+                startActivity(intent);
                 break;
             default:
                 break;
