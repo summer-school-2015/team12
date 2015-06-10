@@ -10,20 +10,20 @@
                 android:id="@+id/editText"
                 android:layout_width="130dp"
                 android:layout_height="60dp"
-                android:background="@android:color/white"
+                android:background="@android:color/transparent"
                 android:cursorVisible="false"
                 android:editable="false"
                 android:ems="10"
-                android:text=" Score: " />
+                android:text=" Score: " android:textColor="@android:color/white"/>
         <EditText
                 android:id="@+id/editText1"
                 android:layout_width="130dp"
                 android:layout_height="60dp"
-                android:background="@android:color/white"
+                android:background="@android:color/transparent"
                 android:cursorVisible="false"
                 android:editable="false"
                 android:ems="10"
-                android:text=" HiScore: " android:layout_gravity="right|top"/>
+                android:text=" HiScore: " android:layout_gravity="right|top" android:textColor="@android:color/white"/>
     </FrameLayout>
     <LinearLayout
             android:orientation="vertical"
@@ -36,8 +36,7 @@
             <Button
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:text="New Button"
-                    android:id="@+id/button" android:background="#ff35ff14"/>
+                    android:id="@+id/button1" android:background="#ff35ff14"/>
         </LinearLayout>
         <LinearLayout
                 android:orientation="horizontal"
@@ -47,17 +46,14 @@
             <Button
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:text="New Button"
                     android:id="@+id/button2" android:background="#ff35ff14" android:layout_marginRight="10dp"/>
             <Button
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:text="New Button"
                     android:id="@+id/button3" android:background="#ff35ff14"/>
             <Button
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:text="New Button"
                     android:id="@+id/button4" android:background="#ff35ff14" android:layout_marginLeft="10dp"/>
         </LinearLayout>
         <LinearLayout
@@ -68,17 +64,14 @@
             <Button
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:text="New Button"
                     android:id="@+id/button5" android:background="#ff35ff14" android:layout_marginRight="10dp"/>
             <Button
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:text="New Button"
                     android:id="@+id/button6" android:background="#ff35ff14"/>
             <Button
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:text="New Button"
                     android:id="@+id/button7" android:background="#ff35ff14" android:layout_marginLeft="10dp"/>
         </LinearLayout>
         <LinearLayout
@@ -89,8 +82,6 @@
             <Button
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:text="New Button"
-
                     android:id="@+id/button8" android:background="#ff35ff14"/>
         </LinearLayout>
     </LinearLayout>

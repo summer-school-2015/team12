@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:id="@+id/Chtoto" android:orientation="vertical" android:weightSum="1">
+    <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="111dp">
+        <EditText
+                android:id="@+id/editText"
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:cursorVisible="false"
+                android:editable="false"
+                android:ems="10"
+                android:text=" Score: " android:textColor="@android:color/white"/>
+        <EditText
+                android:id="@+id/editText1"
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:cursorVisible="false"
+                android:editable="false"
+                android:ems="10"
+                android:text=" HiScore: " android:layout_gravity="right|top" android:textColor="@android:color/white"/>
+    </FrameLayout>
+    <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="73dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GAME OVER"
+                android:id="@+id/textView" android:layout_gravity="center_horizontal|top"
+                android:textSize="@android:dimen/app_icon_size" android:textColor="#ffff1414"/>
+    </FrameLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+            <Button
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:text="Try again"
+                    android:id="@+id/button9" android:background="@android:color/black"
+                    android:textColor="@android:color/white" android:textSize="30dp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+            <Button
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:text="Exit"
+                    android:id="@+id/button10" android:layout_gravity="center_horizontal"
+                    android:background="@android:color/black" android:textColor="#ffff1414"
+                    android:textSize="@android:dimen/app_icon_size"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -15,5 +15,8 @@
        <activity android:name="MainActivityTwo"
                  android:label="@string/second"
                  ></activity>
+        <activity android:name="MainActivityThree"
+                  android:label="@string/second"
+                ></activity>
     </application>
 </manifest>
