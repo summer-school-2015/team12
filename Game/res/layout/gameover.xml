@@ -14,7 +14,7 @@
                 android:cursorVisible="false"
                 android:editable="false"
                 android:ems="10"
-                android:text=" Score: " android:textColor="@android:color/white"/>
+                android:textColor="@android:color/white"/>
         <EditText
                 android:id="@+id/editText1"
                 android:layout_width="130dp"

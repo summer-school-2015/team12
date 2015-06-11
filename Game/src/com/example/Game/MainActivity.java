@@ -9,6 +9,7 @@ import android.widget.Button;
 public class MainActivity extends Activity implements OnClickListener {
 
     Button button;
+    Button button2;
 
     /** Called when the activity is first created. */
     @Override
@@ -18,6 +19,8 @@ public class MainActivity extends Activity implements OnClickListener {
 
         button = (Button) findViewById(R.id.button);
         button.setOnClickListener(this);
+        button2 = (Button) findViewById(R.id.button2);
+        button2.setOnClickListener(this);
     }
 
     @Override
@@ -26,7 +29,10 @@ public class MainActivity extends Activity implements OnClickListener {
             case R.id.button:
                 Intent intent = new Intent(this, MainActivityTwo.class);
                 startActivity(intent);
+                finish();
                 break;
+            case R.id.button2:
+                finish();
             default:
                 break;
         }
